@@ -1,0 +1,1 @@
+export const colors = { navy: '#17243A', navy2: '#253A55', gold: '#C5A46D', background: '#F7F6F3', card: '#FFFFFF', text: '#18212F', muted: '#858B95', border: '#E9E7E2', success: '#25865A', error: '#D9534F' } as const;
