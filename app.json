@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Keystone Events",
-    "slug": "keystone-events",
-    "scheme": "keystone",
+    "name": "Keystone Events Partner",
+    "slug": "keystone-events-partner",
+    "scheme": "keystone-partner",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "plugins": [
@@ -14,7 +14,17 @@
       "typedRoutes": true
     },
     "android": {
-      "package": "com.keystone.events"
+      "package": "com.keystone.events.provider"
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "73779f6e-7199-4b72-9298-3547b5f9af4d"
+      }
     }
   }
 }
